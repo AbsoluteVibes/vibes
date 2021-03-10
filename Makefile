@@ -10,4 +10,4 @@ vibes: vibes.c
 
 donut: donut.c
 	@echo "Compiling $@..."
-	$(CC) $(LIBS) $^ -o $@
+	gcc -o donut donut.c -lm
