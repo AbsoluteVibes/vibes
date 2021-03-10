@@ -6,4 +6,4 @@ vibes: vibes.c
 
 donut: donut.c
 	@echo "Compiling $@..."
-	gcc -o donut donut.c -lm
+	gcc -o donut -w donut.c -lm
