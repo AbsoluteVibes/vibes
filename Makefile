@@ -1,1 +1,2 @@
-gcc -o vibes vibes.c
+vibes: vibes.c
+  gcc -o vibes vibes.c
